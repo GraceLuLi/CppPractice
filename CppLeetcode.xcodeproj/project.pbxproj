@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A14948C21C71261C001CC088 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A14948C11C71261C001CC088 /* main.cpp */; };
+		A12A9D7A1C7E5AA4006629C0 /* Iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A12A9D781C7E5AA4006629C0 /* Iterator.cpp */; };
+		A14948CB1C7128BE001CC088 /* MyHashMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A14948C91C7128BE001CC088 /* MyHashMap.cpp */; };
+		A14948D21C750ADA001CC088 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A14948D01C750ADA001CC088 /* LRUCache.cpp */; };
+		A14948D61C766697001CC088 /* TrieTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A14948D41C766697001CC088 /* TrieTree.cpp */; };
+		A14948DA1C782A12001CC088 /* PeekingIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A14948D81C782A12001CC088 /* PeekingIterator.cpp */; };
+		A1E2CC2D1C7E7E380072130D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1E2CC2C1C7E7E380072130D /* main.cpp */; };
+		A1E2CC2F1C7E7FAE0072130D /* MyHashMap_backup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1E2CC2E1C7E7FAE0072130D /* MyHashMap_backup.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A14948BE1C71261C001CC088 /* MyHashMap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyHashMap; sourceTree = BUILT_PRODUCTS_DIR; };
-		A14948C11C71261C001CC088 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A12A9D781C7E5AA4006629C0 /* Iterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Iterator.cpp; sourceTree = "<group>"; };
+		A12A9D791C7E5AA4006629C0 /* Iterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Iterator.hpp; sourceTree = "<group>"; };
+		A14948BE1C71261C001CC088 /* CppLeetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppLeetcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14948C91C7128BE001CC088 /* MyHashMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyHashMap.cpp; sourceTree = "<group>"; };
+		A14948CA1C7128BE001CC088 /* MyHashMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyHashMap.hpp; sourceTree = "<group>"; };
+		A14948D01C750ADA001CC088 /* LRUCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
+		A14948D11C750ADA001CC088 /* LRUCache.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LRUCache.hpp; sourceTree = "<group>"; };
+		A14948D41C766697001CC088 /* TrieTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrieTree.cpp; sourceTree = "<group>"; };
+		A14948D51C766697001CC088 /* TrieTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TrieTree.hpp; sourceTree = "<group>"; };
+		A14948D81C782A12001CC088 /* PeekingIterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PeekingIterator.cpp; sourceTree = "<group>"; };
+		A14948D91C782A12001CC088 /* PeekingIterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PeekingIterator.hpp; sourceTree = "<group>"; };
+		A1E2CC2C1C7E7E380072130D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1E2CC2E1C7E7FAE0072130D /* MyHashMap_backup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyHashMap_backup.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +58,9 @@
 		A14948B51C71261C001CC088 = {
 			isa = PBXGroup;
 			children = (
+				A14948D71C7829E2001CC088 /* Peeking Iterator */,
+				A14948D31C766680001CC088 /* TrieTree */,
+				A14948CF1C750AA4001CC088 /* LRU_Cache */,
 				A14948C01C71261C001CC088 /* MyHashMap */,
 				A14948BF1C71261C001CC088 /* Products */,
 			);
@@ -49,7 +69,7 @@
 		A14948BF1C71261C001CC088 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A14948BE1C71261C001CC088 /* MyHashMap */,
+				A14948BE1C71261C001CC088 /* CppLeetcode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,17 +77,49 @@
 		A14948C01C71261C001CC088 /* MyHashMap */ = {
 			isa = PBXGroup;
 			children = (
-				A14948C11C71261C001CC088 /* main.cpp */,
+				A14948C91C7128BE001CC088 /* MyHashMap.cpp */,
+				A14948CA1C7128BE001CC088 /* MyHashMap.hpp */,
+				A1E2CC2C1C7E7E380072130D /* main.cpp */,
+				A1E2CC2E1C7E7FAE0072130D /* MyHashMap_backup.cpp */,
 			);
 			path = MyHashMap;
+			sourceTree = "<group>";
+		};
+		A14948CF1C750AA4001CC088 /* LRU_Cache */ = {
+			isa = PBXGroup;
+			children = (
+				A14948D01C750ADA001CC088 /* LRUCache.cpp */,
+				A14948D11C750ADA001CC088 /* LRUCache.hpp */,
+			);
+			name = LRU_Cache;
+			sourceTree = "<group>";
+		};
+		A14948D31C766680001CC088 /* TrieTree */ = {
+			isa = PBXGroup;
+			children = (
+				A14948D41C766697001CC088 /* TrieTree.cpp */,
+				A14948D51C766697001CC088 /* TrieTree.hpp */,
+			);
+			name = TrieTree;
+			sourceTree = "<group>";
+		};
+		A14948D71C7829E2001CC088 /* Peeking Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				A14948D81C782A12001CC088 /* PeekingIterator.cpp */,
+				A14948D91C782A12001CC088 /* PeekingIterator.hpp */,
+				A12A9D781C7E5AA4006629C0 /* Iterator.cpp */,
+				A12A9D791C7E5AA4006629C0 /* Iterator.hpp */,
+			);
+			name = "Peeking Iterator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A14948BD1C71261C001CC088 /* MyHashMap */ = {
+		A14948BD1C71261C001CC088 /* CppLeetcode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A14948C51C71261C001CC088 /* Build configuration list for PBXNativeTarget "MyHashMap" */;
+			buildConfigurationList = A14948C51C71261C001CC088 /* Build configuration list for PBXNativeTarget "CppLeetcode" */;
 			buildPhases = (
 				A14948BA1C71261C001CC088 /* Sources */,
 				A14948BB1C71261C001CC088 /* Frameworks */,
@@ -77,9 +129,9 @@
 			);
 			dependencies = (
 			);
-			name = MyHashMap;
+			name = CppLeetcode;
 			productName = MyHashMap;
-			productReference = A14948BE1C71261C001CC088 /* MyHashMap */;
+			productReference = A14948BE1C71261C001CC088 /* CppLeetcode */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A14948B91C71261C001CC088 /* Build configuration list for PBXProject "MyHashMap" */;
+			buildConfigurationList = A14948B91C71261C001CC088 /* Build configuration list for PBXProject "CppLeetcode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A14948BD1C71261C001CC088 /* MyHashMap */,
+				A14948BD1C71261C001CC088 /* CppLeetcode */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A14948C21C71261C001CC088 /* main.cpp in Sources */,
+				A14948CB1C7128BE001CC088 /* MyHashMap.cpp in Sources */,
+				A1E2CC2F1C7E7FAE0072130D /* MyHashMap_backup.cpp in Sources */,
+				A14948D61C766697001CC088 /* TrieTree.cpp in Sources */,
+				A1E2CC2D1C7E7E380072130D /* main.cpp in Sources */,
+				A12A9D7A1C7E5AA4006629C0 /* Iterator.cpp in Sources */,
+				A14948D21C750ADA001CC088 /* LRUCache.cpp in Sources */,
+				A14948DA1C782A12001CC088 /* PeekingIterator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,21 +265,21 @@
 		A14948C61C71261C001CC088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CppLeetcode;
 			};
 			name = Debug;
 		};
 		A14948C71C71261C001CC088 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CppLeetcode;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A14948B91C71261C001CC088 /* Build configuration list for PBXProject "MyHashMap" */ = {
+		A14948B91C71261C001CC088 /* Build configuration list for PBXProject "CppLeetcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A14948C31C71261C001CC088 /* Debug */,
@@ -230,13 +288,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A14948C51C71261C001CC088 /* Build configuration list for PBXNativeTarget "MyHashMap" */ = {
+		A14948C51C71261C001CC088 /* Build configuration list for PBXNativeTarget "CppLeetcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A14948C61C71261C001CC088 /* Debug */,
 				A14948C71C71261C001CC088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

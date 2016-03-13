@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A14948BD1C71261C001CC088"
-               BuildableName = "MyHashMap"
-               BlueprintName = "MyHashMap"
-               ReferencedContainer = "container:MyHashMap.xcodeproj">
+               BuildableName = "CppLeetcode"
+               BlueprintName = "CppLeetcode"
+               ReferencedContainer = "container:CppLeetcode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A14948BD1C71261C001CC088"
-            BuildableName = "MyHashMap"
-            BlueprintName = "MyHashMap"
-            ReferencedContainer = "container:MyHashMap.xcodeproj">
+            BuildableName = "CppLeetcode"
+            BlueprintName = "CppLeetcode"
+            ReferencedContainer = "container:CppLeetcode.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A14948BD1C71261C001CC088"
-            BuildableName = "MyHashMap"
-            BlueprintName = "MyHashMap"
-            ReferencedContainer = "container:MyHashMap.xcodeproj">
+            BuildableName = "CppLeetcode"
+            BlueprintName = "CppLeetcode"
+            ReferencedContainer = "container:CppLeetcode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A14948BD1C71261C001CC088"
-            BuildableName = "MyHashMap"
-            BlueprintName = "MyHashMap"
-            ReferencedContainer = "container:MyHashMap.xcodeproj">
+            BuildableName = "CppLeetcode"
+            BlueprintName = "CppLeetcode"
+            ReferencedContainer = "container:CppLeetcode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
