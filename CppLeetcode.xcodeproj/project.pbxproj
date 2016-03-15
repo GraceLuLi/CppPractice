@@ -12,6 +12,7 @@
 		A14948D21C750ADA001CC088 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A14948D01C750ADA001CC088 /* LRUCache.cpp */; };
 		A14948D61C766697001CC088 /* TrieTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A14948D41C766697001CC088 /* TrieTree.cpp */; };
 		A14948DA1C782A12001CC088 /* PeekingIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A14948D81C782A12001CC088 /* PeekingIterator.cpp */; };
+		A1A766A91C966ACA00F1A8A7 /* MedianFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A766A71C966ACA00F1A8A7 /* MedianFinder.cpp */; };
 		A1E2CC2D1C7E7E380072130D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1E2CC2C1C7E7E380072130D /* main.cpp */; };
 		A1E2CC2F1C7E7FAE0072130D /* MyHashMap_backup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1E2CC2E1C7E7FAE0072130D /* MyHashMap_backup.cpp */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,8 @@
 		A14948D51C766697001CC088 /* TrieTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TrieTree.hpp; sourceTree = "<group>"; };
 		A14948D81C782A12001CC088 /* PeekingIterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PeekingIterator.cpp; sourceTree = "<group>"; };
 		A14948D91C782A12001CC088 /* PeekingIterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PeekingIterator.hpp; sourceTree = "<group>"; };
+		A1A766A71C966ACA00F1A8A7 /* MedianFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MedianFinder.cpp; sourceTree = "<group>"; };
+		A1A766A81C966ACA00F1A8A7 /* MedianFinder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MedianFinder.hpp; sourceTree = "<group>"; };
 		A1E2CC2C1C7E7E380072130D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A1E2CC2E1C7E7FAE0072130D /* MyHashMap_backup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyHashMap_backup.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,7 @@
 		A14948B51C71261C001CC088 = {
 			isa = PBXGroup;
 			children = (
+				A1A766A61C966A0900F1A8A7 /* MedianFinder */,
 				A14948D71C7829E2001CC088 /* Peeking Iterator */,
 				A14948D31C766680001CC088 /* TrieTree */,
 				A14948CF1C750AA4001CC088 /* LRU_Cache */,
@@ -112,6 +116,15 @@
 				A12A9D791C7E5AA4006629C0 /* Iterator.hpp */,
 			);
 			name = "Peeking Iterator";
+			sourceTree = "<group>";
+		};
+		A1A766A61C966A0900F1A8A7 /* MedianFinder */ = {
+			isa = PBXGroup;
+			children = (
+				A1A766A71C966ACA00F1A8A7 /* MedianFinder.cpp */,
+				A1A766A81C966ACA00F1A8A7 /* MedianFinder.hpp */,
+			);
+			name = MedianFinder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +190,7 @@
 				A12A9D7A1C7E5AA4006629C0 /* Iterator.cpp in Sources */,
 				A14948D21C750ADA001CC088 /* LRUCache.cpp in Sources */,
 				A14948DA1C782A12001CC088 /* PeekingIterator.cpp in Sources */,
+				A1A766A91C966ACA00F1A8A7 /* MedianFinder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

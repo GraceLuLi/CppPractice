@@ -10,6 +10,7 @@
 #include <string>
 #include <sstream>
 #include <vector>
+#include "MedianFinder.hpp"
 #include "LRUCache.hpp"
 #include "TrieTree.hpp"
 #include "PeekingIterator.hpp"
@@ -17,14 +18,24 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
+/* Test for MedianFinder */
+    MedianFinder *mFinder = new MedianFinder();
+    cout << mFinder->findMedian() << " expected: 0\n";
+    mFinder->addNum(2);
+    cout << mFinder->findMedian() << " expected: 2\n";
+    mFinder->addNum(3);
+    cout << mFinder->findMedian() << " expected: 2.5\n";
+    mFinder->addNum(4);
+    cout << mFinder->findMedian() << " expected: 3\n";
+    
 /* Test for LRU_Cache */
-    LRUCache *lruc = new LRUCache(3);
-    lruc->set(1, 1);
-    lruc->set(2, 2);
-    lruc->set(3, 3);
-    cout << "lruc->get(1): " << lruc->get(1) << "  expected: 1\n";
-    lruc->set(4, 4);
-    cout << "lruc->get(2): " << lruc->get(2) << "  expected: null\n";
+//    LRUCache *lruc = new LRUCache(3);
+//    lruc->set(1, 1);
+//    lruc->set(2, 2);
+//    lruc->set(3, 3);
+//    cout << "lruc->get(1): " << lruc->get(1) << "  expected: 1\n";
+//    lruc->set(4, 4);
+//    cout << "lruc->get(2): " << lruc->get(2) << "  expected: null\n";
     
 /* Test for TrieTree */
 //    TrieTree *tTree = new TrieTree();
